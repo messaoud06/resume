@@ -1,0 +1,227 @@
+{
+  "main": {
+    "name": "Messaoud GUERNOUTI",
+    "occupation": "Full Stack | Tech Lead",
+    "description": "Managing team mor then 10 persons, we are using <span> ReactJS </span> as FrontEnd framework, <span>Spring Boot (Hibernate)</span> as Backend framework, and for Mobile part we use the native system <span>Android(Kotlin)/iOS(Swift)</span> ",
+    "image": "profile.png",
+    "bio": "Since More then 14 years Using the leatest Java J2EE technology as Spring Framework (Multiple migration From 3 to 4 and also To Spring 5), JPA/Hibernate. Since the last years we are spliting the FrontEnd by using ReactJS framework. As Mobile Application I used Android Native (Java) & iOS Swift. There are also Mutiple CMS that I have Used such as Liferay, Alfresco ... I have Also another Cap For Security Developement (OWASP) and Certification/implementing of ISO 27001:2013",
+    "contactmessage": "You can get touch with me through diffrent ways Phone , Mail , Form :) ",
+    "email": "messaoud06@gmail.com",
+    "phone": "213554540575",
+    "address": {
+      "street": " 1000 Logts",
+      "city": "Alger",
+      "state": "Zeralda",
+      "zip": "16000"
+    },
+    "website": "",
+    "resumedownload": "https://drive.google.com/file/d/1lWCaL_k29wROBKywx7rZnWeNcW-DTwId/view?usp=sharing",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://web.facebook.com/messaoud.sylar",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "http://twitter.com/messaoudguer",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/messaoudguernouti",
+        "className": "fa fa-linkedin"
+      },
+
+      {
+        "name": "stack-overflow",
+        "url": "https://stackoverflow.com/users/6622356/messaoud-guernouti",
+        "className": "fa fa-stack-overflow"
+      },
+  
+      {
+        "name": "github",
+        "url": "http://github.com/messaoud06",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "",
+    "education": [
+      {
+        "school": "University of Science and Technology Houari Boumediene",
+        "degree": "Software Engineer",
+        "graduated": "June 2008",
+        "description": ""
+      },
+      {
+        "school": "High School - El Djorf",
+        "degree": "Baccalaureate in Mathematics",
+        "graduated": "September 2003",
+        "description": ""
+      }
+    ],
+    "training": [
+      {
+        "school": "Ooredoo Training Center",
+        "degree": "Java FontEnd/Backend Developpement & JVM Tuning",
+        "graduated": "Jul-Dec 2010",
+        "description": ""
+      },
+      {
+        "school": "Ooredoo Training Center",
+        "degree": "Lead implementer/Auditor ISO 27001 - Certification",
+        "graduated": "Sept-Oct 2013",
+        "description": ""
+      },
+
+      {
+        "school": "Ooredoo Training Center",
+        "degree": "iOS Developement (Level 1 To 4)",
+        "graduated": "Spet-Dec 2014",
+        "description": ""
+      },
+      {
+        "school": "Ooredoo Training Center",
+        "degree": "Skills For Collective Success",
+        "graduated": "Mar 2016",
+        "description": ""
+      },
+      {
+        "school": "Ooredoo Training Center",
+        "degree": "Leadership And Management",
+        "graduated": "Apr 2016",
+        "description": ""
+      },
+      {
+        "school": "Ooredoo Training Center",
+        "degree": "Act As Team Manager",
+        "graduated": "June 2016",
+        "description": ""
+      }
+
+    ],
+    "work": [
+      {
+        "company": "Ooredoo Algerie Telecom",
+        "title": "Manager | Digtal Technology  ",
+        "years": "Nov 2018 - Present",
+        "description": ""
+      },
+      {
+        "company": "Ooredoo Algerie Telecom",
+        "title": "Team Leader | Digtal Technology",
+        "years": "June 2014 - Nov 2018",
+        "description": ""
+      },
+      {
+        "company": "Ooredoo Algerie Telecom",
+        "title": "Senoir Engineer | Digtal Technology",
+        "years": "May 2012 - June 2014",
+        "description": ""
+      },
+      {
+        "company": "Ooredoo Algerie Telecom",
+        "title": "Junior Engineer | Digtal Technology ",
+        "years": "Aout 2008 - May 2012",
+        "description": ""
+      },
+      {
+        "company": "Nearbee ",
+        "title": "Software Engineer",
+        "years": "June 2008 - Aout 2008",
+        "description": ""
+      }
+    ],
+    "skills": [
+      {
+        "name": "Git",
+        "level": "80%"
+      },
+      {
+        "name": "Spring Boot",
+        "level": "85%"
+      },
+      {
+        "name": "Spring MVC/Security/Ldap/Quartz ",
+        "level": "90%"
+      },
+      {
+        "name": "JPA/Hibernate",
+        "level": "80%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "65%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "HTML5",
+        "level": "90%"
+      },
+      {
+        "name": "Bootstarp",
+        "level": "90%"
+      },
+      {
+        "name": "JQuery - JavaScript",
+        "level": "90%"
+      },
+      {
+        "name": "Oracle DB",
+        "level": "80%"
+      },
+      {
+        "name": "Apache Web Server",
+        "level": "80%"
+      },
+      {
+        "name": "Apache Tomact",
+        "level": "90%"
+      },
+      {
+        "name": "Linux - Windows Server",
+        "level": "80%"
+      },
+      {
+        "name": "IDE : Intellij - Android Studio - xCode",
+        "level": "80%"
+      }
+      
+    
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "SahlaBox App (Android/iOS)",
+        "category": "MobileApp Box Router",
+        "image": "SahlaBox.JPG",
+        "url": "https://play.google.com/store/apps/details?id=dz.wta.android.sahla"
+      },
+      {
+        "title": "Partener Selfcare",
+        "category": "Selfcare Topup ",
+        "image": "1x/AppStorm.jpg",
+        "url": "http://appstorm.ooredoo.dz"
+      }
+      
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user": "Kareem Abdul Jabbar"
+      },
+      {
+        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
