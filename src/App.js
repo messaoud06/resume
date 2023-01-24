@@ -20,14 +20,14 @@ class App extends Component {
       resumeData: {}
     };
 
-    ReactGA.initialize('UA-110570651-1');
+    ReactGA.initialize('UA-215686434-1');
     ReactGA.pageview(window.location.pathname);
 
   }
 
   getResumeData(){
     $.ajax({
-      url:'resumeData.json',
+      url:'data/resumeData.json',
       dataType:'json',
       cache: false,
       success: function(data){

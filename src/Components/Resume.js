@@ -5,8 +5,9 @@ class Resume extends Component {
 
     if(this.props.data){
       var skillmessage = this.props.data.skillmessage;
+      var technologiesmessage = this.props.data.technologiesmessage;
       var education = this.props.data.education.map(function(education){
-        return <div key={education.school}>
+        return <div key={education.degree}>
                   <h4>{education.degree}</h4>
                   <p className="info">{education.school} <span>&bull;</span>
                   <em className="date">{education.graduated}</em></p>
@@ -16,7 +17,7 @@ class Resume extends Component {
 
 
       var training = this.props.data.training.map(function(training){
-        return <div key={training.school}>
+        return <div key={training.degree}>
                   <h4>{training.degree}</h4>
                   <p className="info">{training.school} <span>&bull;</span>
                   <em className="date">{training.graduated}</em></p>
@@ -25,7 +26,7 @@ class Resume extends Component {
       })
 
       var work = this.props.data.work.map(function(work){
-        return <div key={work.company}>
+        return <div key={work.title}>
           <h4>{work.title}</h4>
             <p className="info">{work.company}<span>&bull;</span> 
             <em className="date">{work.years}</em></p>
@@ -36,6 +37,15 @@ class Resume extends Component {
         var className = 'bar-expand '+skills.name.toLowerCase();
         return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
       })
+
+      var technologies = this.props.data.technologies.map(function(technologies){
+
+            return <div className="columns feature-item"><img  alt={technologies.name} src={technologies.imgLink}/>
+                <h5>{technologies.name}</h5>
+                <p>{technologies.description}</p>
+            </div>
+      })
+
     }
 
     return (
@@ -86,22 +96,46 @@ class Resume extends Component {
 
       <div className="row skill">
 
-         <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
+          <div className="three columns header-col">
+              <h1><span>Skills</span></h1>
+          </div>
 
-         <div className="nine columns main-col">
+          <div className="nine columns main-col">
 
-            <p>{skillmessage}
-            </p>
+              <p>{skillmessage}
+              </p>
 
-				<div className="bars">
-				   <ul className="skills">
-					  {skills}
-					</ul>
-				</div>
-			</div>
+              <div className="bars">
+                  <ul className="skills">
+                    {skills}
+                  </ul>
+                </div>
+			      </div>
+
       </div>
+
+      <div className="row tech">
+
+          <div className="three columns header-col">
+              <h1><span>Fav - Technologies</span></h1>
+          </div>
+
+          <div className="nine columns main-col">
+
+              <p>{technologiesmessage}
+              </p>
+			      </div>
+
+            <ul class="bgrid-quarters s-bgrid-thirds cf">
+                    {technologies}
+                  </ul>
+
+      </div>
+
+
+
+     
+
    </section>
     );
   }

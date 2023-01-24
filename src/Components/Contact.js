@@ -30,7 +30,7 @@ class Contact extends Component {
                   <p className="lead">{message}</p>
                   <br/>
 
-                  <p class="lead warning">Warning: Contact form not yet configured, please contact me via normal email for now</p>
+                  <p className="lead warning">Warning: Contact form not yet configured, please contact me via normal email for now</p>
 
             </div>
 
@@ -86,7 +86,8 @@ class Contact extends Component {
 						   {name}<br />
 						   {street} <br />
 						   {city}, {state} {zip}<br />
-						   <span>{phone}</span>
+						   <span>{phone}</span><br></br>
+                     <span><a href={"mailto:" + email}>{email}</a></span>
 					   </p>
 				   </div>
 

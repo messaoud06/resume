@@ -15,7 +15,7 @@
       "zip": "16000"
     },
     "website": "",
-    "resumedownload": "https://drive.google.com/file/d/1lWCaL_k29wROBKywx7rZnWeNcW-DTwId/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/1yHDvvS3v3GdYgjm3vH1GOauRxI7z82mr/view?usp=sharing",
     "social": [
       {
         "name": "facebook",
@@ -24,21 +24,19 @@
       },
       {
         "name": "twitter",
-        "url": "http://twitter.com/messaoudguer",
+        "url": "https://twitter.com/messaoudguer",
         "className": "fa fa-twitter"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/messaoudguernouti",
+        "url": "https://www.linkedin.com/in/messaoudguernouti/",
         "className": "fa fa-linkedin"
       },
-
       {
         "name": "stack-overflow",
         "url": "https://stackoverflow.com/users/6622356/messaoud-guernouti",
         "className": "fa fa-stack-overflow"
       },
-  
       {
         "name": "github",
         "url": "http://github.com/messaoud06",
@@ -48,6 +46,7 @@
   },
   "resume": {
     "skillmessage": "",
+    "technologiesmessage": "I'm always interested in playing around with new technologies but these are the ones that have really won me over",
     "education": [
       {
         "school": "University of Science and Technology Houari Boumediene",
@@ -75,7 +74,6 @@
         "graduated": "Sept-Oct 2013",
         "description": ""
       },
-
       {
         "school": "Ooredoo Training Center",
         "degree": "iOS Developement (Level 1 To 4)",
@@ -100,7 +98,6 @@
         "graduated": "June 2016",
         "description": ""
       }
-
     ],
     "work": [
       {
@@ -132,6 +129,28 @@
         "title": "Software Engineer",
         "years": "June 2008 - Aout 2008",
         "description": ""
+      }
+    ],
+    "technologies": [
+      {
+        "name": "Spring",
+        "description": "I am very passionate about this framework I worked more than ten years with the MVC and with the release of Spring Boot everything becomes very easy. Thanks Spring Cummuanity",
+        "imgLink": "images/tech/spring2.png"
+      },
+      {
+        "name": "React JS",
+        "description": "The ReactJS is a wonderful JavaScript Framworke, it help to easly/quickly build a nice user interface. We starting use it since 5 years ago  ",
+        "imgLink": "images/tech/react.jpg"
+      },
+      {
+        "name": "Android/iOS",
+        "description": "These technologies are becoming increasingly important years after years. I started Development on mobile technologies since 2013, also I have agood knowledge on Hybrid Development (React Native)",
+        "imgLink": "images/tech/android-apple.jpg"
+      },
+      {
+        "name": "Git",
+        "description": "The Good one and the Moste populaire Version Control on the World, I have Installed and Managed the Server Git on Ooredoo Company, more then 6 Years using this magnific Version Control. We are using on all our Projects",
+        "imgLink": "images/tech/git1.png"
       }
     ],
     "skills": [
@@ -191,8 +210,6 @@
         "name": "IDE : Intellij - Android Studio - xCode",
         "level": "80%"
       }
-      
-    
     ]
   },
   "portfolio": {
@@ -209,7 +226,6 @@
         "image": "1x/AppStorm.jpg",
         "url": "http://appstorm.ooredoo.dz"
       }
-      
     ]
   },
   "testimonials": {
