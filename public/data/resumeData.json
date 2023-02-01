@@ -15,7 +15,7 @@
       "zip": "16000"
     },
     "website": "",
-    "resumedownload": "https://drive.google.com/file/d/1yHDvvS3v3GdYgjm3vH1GOauRxI7z82mr/view?usp=sharing",
+    "resumedownload": "https://www.messaoud-guernouti.info/Messaoud%20GUERNOUTI.pdf",
     "social": [
       {
         "name": "facebook",
@@ -101,9 +101,15 @@
     ],
     "work": [
       {
+        "company": "iHorizons",
+        "title": "Lead Engineer",
+        "years": "Nov 2022 - Present",
+        "description": ""
+      },
+      {
         "company": "Ooredoo Algerie Telecom",
         "title": "Manager | Digtal Technology  ",
-        "years": "Nov 2018 - Present",
+        "years": "Nov 2018 - June 2022",
         "description": ""
       },
       {
